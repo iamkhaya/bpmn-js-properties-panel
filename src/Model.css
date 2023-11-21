@@ -1,0 +1,23 @@
+@import "bpmn-js/dist/assets/diagram-js.css";
+@import "bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css";
+@import "bpmn-js-properties-panel/dist/assets/properties-panel.css";
+
+.hidden {
+  display: none;
+}
+
+.canvas {
+  height: 100vh;
+}
+
+.properties-panel-parent {
+  width: 20%;
+  min-width: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  overflow: auto;
+  background-color: #f8f8f8;
+  border-left: 1px solid #ccc;
+}

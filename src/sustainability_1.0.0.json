@@ -1,0 +1,14 @@
+{
+  "serviceInformation": {
+    "serverPath": "http://localhost",
+    "version": "1.0.0"
+  },
+  "endpoints": [
+    {
+      "id": "0",
+      "handler": "Greeter",
+      "isOptional": true,
+      "executionModality": "highPerformance"
+    }
+  ]
+}

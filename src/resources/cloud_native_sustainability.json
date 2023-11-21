@@ -1,0 +1,25 @@
+{
+  "name": "CloudNativeSustainabilityPackage",
+  "uri": "http://cloud-native-sustainability/schema/bpmn/cns",
+  "prefix": "bpmncns",
+  "types": [
+    {
+      "name": "CloudNativeSustainabilityTask",
+      "extends": ["bpmn:Task"],
+      "properties": [
+        {
+          "name": "optional",
+          "isAttr": true,
+          "type": "Boolean"
+        },
+        {
+          "name": "executionModality",
+          "isAttr": true,
+          "type": "ExecutionModality"
+        }
+      ]
+    }
+  ],
+  "emumerations": [{}],
+  "associations": []
+}
